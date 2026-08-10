@@ -1,0 +1,81 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #044C84;
+    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+    gap: 200px;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav a{
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: rgba(59, 115, 189, 0.267);
+}
+
+.caixa-news {
+    padding: 50px;
+    margin: 30px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #044C84;
+    ackground: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+}
+
+.direita-main img {
+    width: 500px;
+    height: 400px;
+}
+
+.esquerda-main p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.esquerda-main h1 {
+    padding-top: 20px;
+}
+
+.texto {
+    padding-bottom: 100px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+button {
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(218, 216, 216);
+}
