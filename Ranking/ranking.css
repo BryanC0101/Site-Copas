@@ -11,7 +11,12 @@ nav {
     justify-content: center;
     align-items: center;
     background: #044C84;
-    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+    background: linear-gradient(
+        180deg,
+        rgba(4, 76, 132, 1) 0%,
+        rgba(4, 84, 148, 1) 50%,
+        rgba(4, 76, 132, 1) 100%
+    );
     gap: 200px;
 }
 
@@ -44,22 +49,40 @@ nav a:hover::after {
     width: 100%;
 }
 
+.hamburger {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
 main h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     color: #04223a;
+    text-align: center;
 }
 
 .tabela {
     border: 3px solid rgb(99, 98, 98);
     margin: 20px;
+    overflow-x: auto;
 }
 
 .cups {
     background: #cfcfcf;
-    background: linear-gradient(90deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.65) 50%, rgba(207, 207, 207, 0.33) 100%);
+    background: linear-gradient(
+        90deg,
+        rgba(207, 207, 207, 1) 0%,
+        rgba(207, 207, 207, 0.65) 50%,
+        rgba(207, 207, 207, 0.33) 100%
+    );
     padding-right: 20px;
     padding-left: 60px;
     position: relative;
@@ -69,7 +92,6 @@ main h1 {
     width: 45px;
     cursor: pointer;
 }
-
 
 #copadomundo {
     width: 55px;
@@ -86,6 +108,7 @@ main h1 {
     transform: scale(1.15);
 }
 
+
 .selecao {
     font-size: 15px;
     margin: 50px;
@@ -101,4 +124,124 @@ main h1 {
 
 .selecao img {
     width: 150px;
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    nav {
+        position: relative;
+        justify-content: space-between;
+        gap: 0;
+        padding: 15px 20px;
+    }
+
+    nav h1 {
+        font-size: 24px;
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        color: white;
+        border: none;
+        font-size: 30px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 0;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #044C84;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .menu.ativo {
+        display: flex;
+    }
+
+    .menu a {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .menu a::after {
+        display: none;
+    }
+
+
+
+    main h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+
+
+    .tabela {
+        margin: 15px 10px;
+        overflow-x: auto;
+    }
+
+
+
+    .cups {
+        padding: 15px;
+    }
+
+    #julesrimet {
+        width: 35px;
+    }
+
+    #copadomundo {
+        width: 45px;
+    }
+
+
+
+    .selecao {
+        font-size: 14px;
+        margin: 30px 15px;
+        display: grid;
+        grid-template-columns: 80px 60px 1fr;
+        gap: 15px;
+    }
+
+    .selecao h1 {
+        padding-right: 5px;
+        font-size: 18px;
+    }
+
+    .selecao img {
+        width: 60px;
+        max-width: 100%;
+    }
+
+
+
+    .direita-main img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem-moment img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
 }

@@ -1,3 +1,18 @@
+const hamburger = document.querySelector("#hamburger");
+const menu = document.querySelector("#menu");
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+
+    if (menu.classList.contains("ativo")) {
+        hamburger.textContent = "✕";
+    } else {
+        hamburger.textContent = "☰";
+    }
+});
+
+
+
 const parametros = new URLSearchParams(window.location.search);
 
 const id = Number(parametros.get("id"));
