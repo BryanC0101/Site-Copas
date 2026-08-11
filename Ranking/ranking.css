@@ -16,7 +16,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav a {
@@ -44,51 +44,61 @@ nav a:hover::after {
     width: 100%;
 }
 
-.caixa-news {
-    padding: 50px;
-    margin: 80px;
-    gap: 100px;
+main h1 {
     display: flex;
+    align-items: center;
     justify-content: center;
-    color: white;
-    background: #044C84;
-    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+    padding: 20px;
+    color: #04223a;
 }
 
-.direita-main img {
-    width: 500px;
-    height: 400px;
+.tabela {
+    border: 3px solid rgb(99, 98, 98);
+    margin: 20px;
 }
 
-.esquerda-main p {
-    padding-top: 20px;
-    font-size: 18px;
+.cups {
+    background: #cfcfcf;
+    background: linear-gradient(90deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 0.65) 50%, rgba(207, 207, 207, 0.33) 100%);
+    padding-right: 20px;
+    padding-left: 60px;
+    position: relative;
 }
 
-.esquerda-main h1 {
-    padding-top: 20px;
-}
-
-.texto {
-    padding-bottom: 100px;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-button {
-    padding: 15px;
-    border-radius: 100px;
-    border: none;
-    font-size: 18px;
-    font-weight: 400;
+#julesrimet {
+    width: 45px;
     cursor: pointer;
 }
 
-button a{
-    text-decoration: none;
-    color: black;
+
+#copadomundo {
+    width: 55px;
+    cursor: pointer;
 }
 
-button:hover {
-    background-color: rgb(218, 216, 216);
+#julesrimet,
+#copadomundo {
+    transition: transform 0.2s ease;
+}
+
+#julesrimet:hover,
+#copadomundo:hover {
+    transform: scale(1.15);
+}
+
+.selecao {
+    font-size: 15px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 180px 100px 600px;
+    align-items: center;
+    gap: 50px;
+}
+
+.selecao h1 {
+    padding-right: 20px;
+}
+
+.selecao img {
+    width: 150px;
 }

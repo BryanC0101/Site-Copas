@@ -16,7 +16,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav a {
@@ -44,51 +44,54 @@ nav a:hover::after {
     width: 100%;
 }
 
-.caixa-news {
-    padding: 50px;
-    margin: 80px;
-    gap: 100px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    background: #044C84;
-    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+#titulo-news {
+    margin: 60px;
+    color: #04223a;
+    font-size: 50px;
 }
 
-.direita-main img {
-    width: 500px;
-    height: 400px;
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 60px;
 }
 
-.esquerda-main p {
-    padding-top: 20px;
-    font-size: 18px;
-}
+.noticia {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    align-items: center;
+    gap: 15px;
 
-.esquerda-main h1 {
-    padding-top: 20px;
-}
-
-.texto {
-    padding-bottom: 100px;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-button {
     padding: 15px;
-    border-radius: 100px;
-    border: none;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
 }
 
-button a{
+.noticia:hover {
+    transform: scale(1.02);
+}
+
+.noticias a {
     text-decoration: none;
-    color: black;
+    color: #04223a;
 }
 
-button:hover {
-    background-color: rgb(218, 216, 216);
+
+.noticia img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.noticia h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.noticia img:hover {
+    transform: scale(1.05);
 }
