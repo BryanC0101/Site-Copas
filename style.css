@@ -11,11 +11,13 @@
 
 html, body {
     overflow-x: hidden;
+    background-color: white !important;
 }
 
 
 body {
     background-color: rgb(243, 243, 243);
+    color: black !important;
 }
 
 main {
@@ -282,5 +284,11 @@ button:hover {
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: light;
+    }
+
+    html,
+    body {
+        background-color: white !important;
+        color: black !important;
     }
 }
