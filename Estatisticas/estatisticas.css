@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    color-scheme: light;
+}
+
 html,
 body {
     overflow-x: hidden;
