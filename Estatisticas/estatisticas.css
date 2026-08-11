@@ -5,17 +5,30 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: rgb(243, 243, 243);
 }
+
 
 nav {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+
     background: #044C84;
-    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+    background: linear-gradient(
+        180deg,
+        rgba(4, 76, 132, 1) 0%,
+        rgba(4, 84, 148, 1) 50%,
+        rgba(4, 76, 132, 1) 100%
+    );
+
     gap: 200px;
 }
 
@@ -33,6 +46,8 @@ nav a {
     position: relative;
 }
 
+
+
 nav a::after {
     content: "";
     position: absolute;
@@ -49,6 +64,16 @@ nav a:hover::after {
 }
 
 
+.hamburger {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 
 main {
     width: 90%;
@@ -57,17 +82,30 @@ main {
     padding-top: 40px;
 }
 
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
 table {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
     width: 100%;
     border-collapse: collapse;
+
     background-color: #111827;
     color: white;
+
     font-family: Arial, sans-serif;
+
     border-radius: 10px;
     overflow: hidden;
 }
-
 
 thead {
     background-color: #1d4ed8;
@@ -76,11 +114,11 @@ thead {
 th {
     padding: 18px 15px;
     text-align: center;
+
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 
 tbody tr {
     border-bottom: 1px solid #263244;
@@ -97,22 +135,21 @@ td {
     font-size: 16px;
 }
 
-
 td:nth-child(2) {
     text-align: left;
     font-weight: bold;
 }
 
-
 table img {
     width: 45px;
     height: 45px;
+
     object-fit: cover;
     border-radius: 50%;
+
     vertical-align: middle;
     margin-right: 12px;
 }
-
 
 td:nth-child(4) {
     font-size: 20px;
@@ -120,41 +157,65 @@ td:nth-child(4) {
 }
 
 
+
 @media (max-width: 768px) {
+
 
     nav {
         position: relative;
         justify-content: space-between;
-        gap: 0px;
-        padding: 15px 10px;
+        gap: 0;
+
+        padding: 15px 20px;
+    }
+
+    nav h1 {
+        font-size: 20px;
     }
 
     #logo a {
         font-size: 24px;
+        padding: 0;
     }
 
     .hamburger {
         display: block;
+
         background: none;
         color: white;
+
         border: none;
+
         font-size: 30px;
         padding: 5px;
+
         cursor: pointer;
-        border-radius: 0;
+        line-height: 1;
     }
+
 
     .menu {
         display: none;
+
         position: absolute;
         top: 100%;
         left: 0;
+
         width: 100%;
-        background: #044C84;
+
+        background: linear-gradient(
+            180deg,
+            rgba(4, 76, 132, 1) 0%,
+            rgba(4, 84, 148, 1) 50%,
+            rgba(4, 76, 132, 1) 100%
+        );
+
         flex-direction: column;
         align-items: center;
+
         gap: 0;
         padding: 10px 0;
+
         z-index: 1000;
     }
 
@@ -164,25 +225,63 @@ td:nth-child(4) {
 
     .menu a {
         width: 100%;
+
         text-align: center;
+
         padding: 15px;
+
         font-size: 16px;
     }
 
-    .caixa-news {
-        flex-direction: column;
-        padding: 20px;
-        margin: 20px auto;
-        gap: 20px;
-        width: 90%;
+    .menu a::after {
+        display: none;
     }
-    .direita-main img {
+
+
+    main {
+        width: 95%;
+        margin: 30px auto;
+        padding-top: 20px;
+    }
+
+
+    @media (max-width: 768px) {
+
+    .table-container {
         width: 100%;
-        height: auto;
+        overflow-x: hidden;
     }
-    .imagem-moment img {
+
+    table {
         width: 100%;
-        max-width: 350px;
-        height: auto;
+        min-width: 0;
+        table-layout: fixed;
     }
+
+    th {
+        padding: 8px 3px;
+        font-size: 9px;
+        letter-spacing: 0;
+    }
+
+    td {
+        padding: 8px 3px;
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+
+    td:nth-child(2) {
+        font-size: 11px;
+    }
+
+    td:nth-child(4) {
+        font-size: 14px;
+    }
+
+    table img {
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+    }
+}
 }

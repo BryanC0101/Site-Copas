@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 nav {
     padding: 20px;
     display: flex;
@@ -210,6 +214,7 @@ h5 {
 
     .main-cima img {
         height: 700px;
+        position: relative;
     }
 
 }
