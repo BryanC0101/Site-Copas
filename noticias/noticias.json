@@ -56,10 +56,14 @@
         "imagem": "../images/clausioBoladeouro.png",
         "resumo": "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
         "subtitulo": "Após uma campanha histórica em sua primeira copa marcando 10 gols no torneio, Cláusio foi escolhido como o melhor jogador da temporada",
-        "paragrafos": [
-            "",
+        "paragrafos": [ 
+            "Cláusio Goodbarras é a sensação do momento depois de ter executado com excelência a final da copa do mundo e desbancado figuras como Johnny Schorros e Cláudio Goodbarras, seu pai.",
+            "\"É uma honra jogar bola\", disse ele no pulpito da cerimônia.",
+            "O jogador, nascido em San Marino, agora possui seu primeiro 'Ballon d'Or', ficando atrás de Johnny Schorros que possui 18 bolas de ouro.",
             ""
-        ]
+        ],
+        "imagemInfo": "/images/twiterbarraclausio.jpg",
+        "legenda": "Postagem de Cláusio em sua rede social com seu pai, Cláudio Goodbarras."
     },
 
     {
