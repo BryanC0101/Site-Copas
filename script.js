@@ -14,6 +14,23 @@ const observer = new IntersectionObserver((entries)=>{
 images.forEach(img=>observer.observe(img));
 
 
+const hamburger = document.querySelector("#hamburger");
+const menu = document.querySelector("#menu");
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+
+    if (menu.classList.contains("ativo")) {
+        hamburger.textContent = "✕";
+    } else {
+        hamburger.textContent = "☰";
+    }
+});
+
+
+
+
+
 const categoria = document.querySelector("#categoria");
 const titulo = document.querySelector("#titulo");
 const descricao = document.querySelector("#descricao");
