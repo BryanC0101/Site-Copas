@@ -211,3 +211,8 @@ h5 {
         height: auto;
     }
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}

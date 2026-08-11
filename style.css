@@ -278,3 +278,9 @@ button:hover {
         text-align: center;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}

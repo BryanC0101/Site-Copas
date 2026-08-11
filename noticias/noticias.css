@@ -222,3 +222,8 @@ h5 {
     }
 
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}
