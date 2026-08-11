@@ -268,4 +268,9 @@ button:hover {
         max-width: 350px;
         height: auto;
     }
+
+    .foot {
+        font-size: 20px;
+        text-align: center;
+    }
 }
