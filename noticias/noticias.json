@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "titulo": "San Marino conquista mais um Título e se torna Bi Campeão Mundial",
+        "data": "10 ago 2026",
+        "imagem": "../images/imagem2sanmarino.png",
+        "resumo": "San Marino conquista seu segundo título mundial após uma campanha histórica.",
+        "subtitulo": "Campeão eternizado, San Marino se lança para a prateleira das maiores seleções do futebol moderno após conquistar seu segundo título em menos de 2 décadas.",
+        "paragrafos": [
+            "Após um tropeço contra a seleção dinamarquesa na copa anterior, o técnico Andrey Malakovitch Djangovsky se esforçou em sua nova jornada para esta copa e, depois de uma campanha no torneio bastante agitada, como na partida contra a Itália que foi resolvida nos pênaltis com a vitória de San Marino, caminhou até à final e conquistou o tão sonhado título.",
+            
+            "Johnny Schorros foi uma das estrelas do torneio, auxiliando o time a conquistar a vitória em todas as partidas. Mas foi Cláusio Goodbarras que realmente surpreendeu, sendo sua primeira Copa do Mundo, ele se tornou o artilheiro da competição e resolveu a maioria dos jogos de forma tranquila.",
+            
+            "Em uma entrevista pós-copa, o técnico Andrey M. demonstrou, surpreendentemente, desaprovação pelo modo como sua seleção jogou:",
+            
+            "\"Não jogaram nada, não mereciam ter ganho, esse Johnny só atrapalha, o Cláusio que é bom de verdade, quase caíram para aquela porcaria de seleção italiana, me aposentaria se isso tivesse acontecido.\"",
+            
+            "Em seguida, quando questionado sobre a derrota da seleção da Somália que era uma das grandes candidatas ao título por terem um ataque estrelado e um técnico campeão mundial, o professor respondeu:",
+            
+            "\"Não dão nem para o cheiro. Aquele grandão lá, o Hans Chow, traidor, espero que vá pro inferno!\""
+        ],
+        "imagemInfo": "../images/johnnycomataça.png",
+        "legenda": "A glória de um time que para sempre será lembrado. O que esperar para a próxima copa?"
+    },
+
+    {
+        "id": 2,
+        "titulo": "Técnico da seleção da Somália é demitido após copa",
+        "data": "10 ago 2026",
+        "imagem": "../images/copaebola.webp",
+        "resumo": "O técnico italiano Fedo Scafaldi foi demitido do cargo de técnico da seleção da Somália após confusões no vestiário e com a comissão técnica.",
+        "subtitulo": "O técnico italiano Fedo Scafaldi foi demitido do cargo de técnico da seleção da Somália após confusões no vestiário e com a comissão técnica.",
+        "paragrafos": [
+            "Após o jogo que causou a derrota do time somali, Fedo Scafaldi proferiu insultos ao jogador Hans Chow, depositando a ele a culpa da derrota contra a Holanda nas oitavas de final.",
+
+            "A comissão técnica e os dirigentes da seleção da Somália decidiram, nessa segunda-feira, 10 de agosto, pela retirada do técnico do cargo, embora tenha conquistado um título mundial na copa anterior.",
+
+            "A notícia causou grande repercussão no setor internacional. Ao ser perguntado para o técnico vencedor da copa, Andrey M. Djangovsky, sobre a saída do técnico italiano do time, ele disse:",
+
+            "\"Esperava que ele tivesse chegado mais longe, mas infelizmente é assim o futebol, ou felizmente, já que ganhei\"",
+
+            "Johnny Schorros, a estrela do time, juntamente com Hans Chow, que embora tenha sido vítima de injúrias de Fedo, disseram que o acompanharão em seus próximos trabalhos.",
+
+            "Ao ser questionado, Johnny Schorros disse:",
+
+            "\"Gosto de jogar bola e ele também, gosto dele bastante, joga bola comigo e diz pra mim joga bola com o amigo Chow. Vou jogar bola com ele em algum outro lugar que tiver gol e bola.\""
+        ],
+        "imagemInfo": "../images/flags/somalia.svg",
+        "legenda": "A seleção norte-coreana e a seleção da Tanzânia já se colocaram ao dispor de Fedo Scafaldi, mas não houve até o momento confirmação do técnico para qual seleção ele irá dirigir no próximo torneio."
+    },
+
+    {
+        "id": 3,
+        "titulo": "Cláusio Goodbarras ganha o prêmio bola de ouro",
+        "data": "11 ago 2026",
+        "imagem": "../images/clausioBoladeouro.png",
+        "resumo": "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
+        "subtitulo": "Após uma campanha histórica em sua primeira copa marcando 10 gols no torneio, Cláusio foi escolhido como o melhor jogador da temporada",
+        "paragrafos": [
+            "",
+            ""
+        ]
+    },
+
+    {
+        "id": 4,
+        "titulo": "Veja a reação da torcida somali após a derrota para a Holanda nas oitavas de final",
+        "data": "11 ago 2026",
+        "imagem": "/images/somaliaCai.png",
+        "resumo": "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
+        "subtitulo": "",
+        "paragrafos": [
+            "",
+            ""
+        ]
+    },
+
+    {
+        "id": 5,
+        "titulo": "Cláudio entrega copa para os jogadores de San Marino, mas fica com ela posteriormente",
+        "data": "11 ago 2026",
+        "imagem": "/images/claudioCopa.png",
+        "resumo": "",
+        "subtitulo": "Logo depois de cerimônia de comemoração da seleção de San Marino, Cláudio Goodbarras leva outra copa para Uganda",
+        "paragrafos": [
+            "",
+            ""
+        ]
+    },
+
+    {
+        "id": 6,
+        "titulo": "Conheça mais sobre Johnny Schorros",
+        "data": "11 ago 2026",
+        "imagem": "/images/johhnyfoto.png",
+        "resumo": "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
+        "subtitulo": "",
+        "paragrafos": [
+            "",
+            ""
+        ]
+    },
+
+    {
+        "id": 7,
+        "titulo": "Quem é o estreante, filho de Cláudio Goodbarras, a ganhar a Copa do Mundo?",
+        "data": "11 ago 2026",
+        "imagem": "/images/clausiobarras.png",
+        "resumo": "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
+        "subtitulo": "",
+        "paragrafos": [
+            "",
+            ""
+        ]
+    }
+]

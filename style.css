@@ -5,6 +5,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+main {
+    padding-top: 40px;
+
+}
+
+#principal img {
+    opacity: 0;
+    transition: opacity 800ms ease;
+}
+
+#principal img.show {
+    opacity: 1;
+}
+
 nav {
     padding: 20px;
     display: flex;
@@ -45,8 +63,8 @@ nav a:hover::after {
 }
 
 .caixa-news {
-    padding: 50px;
-    margin: 80px;
+    padding: 40px;
+    margin: 40px;
     gap: 100px;
     display: flex;
     justify-content: center;
@@ -75,8 +93,51 @@ nav a:hover::after {
     font-weight: 400;
 }
 
+.stock-ticker img {
+    width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.stock-ticker {
+    color: #04223a;
+    margin-inline: 4px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    padding-block: 8px;
+    border-block: 2px solid;
+    overflow: hidden;
+    user-select: none;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.stock-ticker ul {
+
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
 button {
-    padding: 15px;
+    padding: 20px;
     border-radius: 100px;
     border: none;
     font-size: 18px;
@@ -91,4 +152,40 @@ button a{
 
 button:hover {
     background-color: rgb(218, 216, 216);
+}
+
+.copaMoments {
+    text-align: center;
+    color: #04223a;
+}
+
+.images-moments {
+    padding-top: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.imagem-moment img{
+    width: 350px;
+    height: 500px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.imagem-moment img:hover {
+    transform: scale(1.05);
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background-color: #044C84;
+    width: 100%;
+    height: 200px;
 }
