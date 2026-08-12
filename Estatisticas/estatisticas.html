@@ -5,7 +5,7 @@
     <meta name="color-scheme" content="light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estatisticas.css">
-    <title>Document</title>
+    <title>Estatísticas</title>
 </head>
 <body>
     <nav>
@@ -25,6 +25,14 @@
     </nav>
 
     <main>
+        <div class="filtro">
+            <label for="ordenar">Classificar por:</label>
+            <select id="ordenar">
+                <option value="gols">Gols</option>
+                <option value="assistencias">Assistências</option>
+            </select>
+        </div>
+
         <table>
             <thead>
                 <tr>
