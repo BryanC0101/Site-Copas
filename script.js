@@ -36,6 +36,7 @@ const titulo = document.querySelector("#titulo");
 const descricao = document.querySelector("#descricao");
 const imagem = document.querySelector("#imagem-noticia");
 const link = document.querySelector("#link-noticia");
+const barras = document.querySelectorAll(".barra");
 
 let noticiaAtual = 0;
 
@@ -84,6 +85,10 @@ const noticias = [
 
 
 function trocarNoticia() {
+    
+    barras.forEach(barra => {
+        barra.classList.remove("ativa");
+    });
 
     noticiaAtual++;
 
@@ -98,6 +103,8 @@ function trocarNoticia() {
     descricao.textContent = noticia.descricao;
     imagem.src = noticia.imagem;
     link.href = noticia.link;
+
+    barras[noticiaAtual].classList.add("ativa");
 }
 
 setInterval(trocarNoticia, 5000);

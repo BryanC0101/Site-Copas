@@ -74,22 +74,51 @@ nav a:hover::after {
     width: 100%;
 }
 
+#categoria {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-left: 4px solid white;
+    font-size: 13px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 .caixa-news {
-    padding: 40px;
+    padding: 50px;
     margin: 40px auto;
     gap: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
     color: white;
-    background: #044C84;
-    background: linear-gradient(180deg, rgba(4, 76, 132, 1) 0%, rgba(4, 84, 148, 1) 50%, rgba(4, 76, 132, 1) 100%);
+
+    background: linear-gradient(
+        135deg,
+        #033b68,
+        #0565a8
+    );
+
     width: 90%;
     max-width: 1200px;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .direita-main img {
+    border-radius: 20px;
     width: 500px;
     height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease, opacity 0.8s ease;
+}
+
+.direita-main img:hover {
+    transform: scale(1.04);
 }
 
 .esquerda-main p {
@@ -99,6 +128,9 @@ nav a:hover::after {
 
 .esquerda-main h1 {
     padding-top: 20px;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: -1px;
 }
 
 .texto {
@@ -142,6 +174,35 @@ nav a:hover::after {
     animation: scroll 30s linear infinite;
 }
 
+.barras-noticias {
+    display: flex;
+    gap: 8px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.barra {
+    flex: 1;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.barra::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.barra.ativa::before {
+    width: 100%;
+    transition: width 5s linear;
+}
+
+
 @keyframes scroll {
     to {
         transform: translateX(-100%);
@@ -151,12 +212,22 @@ nav a:hover::after {
 
 
 button {
-    padding: 20px;
-    border-radius: 100px;
+    padding: 14px 28px;
+    border-radius: 50px;
     border: none;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: bold;
     cursor: pointer;
+
+    background-color: white;
+    color: #044c84;
+
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 button a{
@@ -217,6 +288,10 @@ button:hover {
         justify-content: space-between;
         gap: 0px;
         padding: 15px 10px;
+    }
+
+    .esquerda-main h1 {
+        font-size: 28px;
     }
 
     #logo a {
