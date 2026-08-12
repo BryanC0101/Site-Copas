@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="classificacao.css">
+    <title>Classificação</title>
+</head>
+<body>
+
+    <nav>
+        <div id="logo">
+            <a href="/index.html">PES21</a>
+        </div>
+
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+
+        <div class="menu" id="menu">
+            <a href="/Estatisticas/estatisticas.html">Estatísticas</a>
+            <a href="/Classificacoes/classificacao.html">Classificação</a>
+            <a href="/noticias/portalnews.html">Notícias</a>
+            <a href="/Ranking/ranking.html">Ranking</a>
+        </div>
+    </nav>
+
+    <h1>Ranking PES21</h1>
+
+    <section class="registrar">
+        <div class="partida">
+            <div>
+                <label for="selecao-casa">Seleção 1</label>
+                <select id="selecao-casa"></select>
+            </div>
+
+            <div class="placar">
+                <input
+                type="number"
+                id="gols-casa"
+                min="0"
+                value="0">
+
+                <span>x</span>
+                
+                <input
+                type="number"
+                id="gols-fora"
+                min="0"
+                value="0">
+            </div>
+
+            <div>
+                <label for="selecao-fora">Seleção 2</label>
+
+                <select id="selecao-fora">
+                </select>
+            </div>
+        </div>
+
+        <button id="registrar">Registrar partida</button>
+
+        <p id="mensagem"></p>
+    </section>
+
+    <section class="ranking">
+
+        <h2>Ranking Mundial</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Seleção</th>
+                    <th>Pontos</th>
+                    <th>Última alteração</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabela-ranking"></tbody>
+        </table>
+    </section>
+
+    <script src="classificacao.js"></script>
+</body>
+</html>

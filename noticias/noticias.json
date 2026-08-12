@@ -122,5 +122,29 @@
             "",
             ""
         ]
+    },
+
+    {
+        "id": 8,
+        "titulo": "Entrevista exclusiva com Johnny Schorros",
+        "data": "12 ago 2026",
+        "imagem": "/noticias/entrevista.png",
+        "resumo": "Johnny aborda sua vida e suas opiniões a cerca de Cláudio Goodbarras na entrevista",
+        "subtitulo": "",
+        "paragrafos": [
+            "Nesta manhã de quarta-feira, 12 de agosto, Johnny Schorros, da seleção da Somália, ao sair de seu treino conversou conosco e nos contou algumas de suas histórias de vida e seus planos.",
+            "Confira a entrevista:",
+            "\"Tem que jogar bastante bola, tem que abraçar a bola, tem amar a bola, não pode chutar ela muito porque ela não gosta, deixa ela TRISTE\", disse o craque.",
+            "- Como você se sente sendo a maior lenda viva do esporte, trazendo inspiração para tantas crianças de todo o planeta?",
+            "\"É bem legal, acho bom que várias pessoas gostem de jogar bola, me deixa feliz\"",
+            "- Seu pai, John Schorros, sempre o incentivou a jogar futebol ou foi uma vontade espontânea, adquirida por meio de suas experiências de vida?",
+            "\"O Schorrão não gosta muito de futebol, gosta mais de sapato, mas foi ele que me mostrou como joga bola quando eu era pequeno. Schorrão era legal.\"",
+            "- O que você acha de Cláudio Goodbarras? na última copa em que ele foi eliminado pela Dinamarca ele proferiu diversos insultos a sua pessoa, te chamando de charlatão, careca, cara de sapo e outros insultos que prefiro não continuar citando, mas, o que você acha disso?",
+            "\"ha ha, cara de sapo\"",
+            "- Schorros?",
+            "\"gosto do Cláudião também, meu melhor amigo depois do meu irmãozão Hans Schorros e depois do Schorrão e depois da amiga bola, espero que ele tenha ficado feliz depois de eu ter ganho aquela copa, queria que ele estivesse lá comigo naquela hora de levantar a copa, foi legal\"",
+            "- Mas ele te insultou Johnny, acho que ele não gosta muito de você.",
+            "\"mentira, gosta sim, a gente é amigo, bastante amigo, ele gosta de jogar bola e eu também, pronto!\""
+        ]
     }
 ]

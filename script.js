@@ -70,7 +70,7 @@ const noticias = [
         titulo: "Cláusio Goodbarras ganha o prêmio bola de ouro",
         descricao: "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
         imagem: "images/clausioBoladeouro.png",
-        link: "/noticias/noticias.html?id=6"
+        link: "/noticias/noticias.html?id=3"
     },
 
     {
@@ -78,7 +78,7 @@ const noticias = [
         titulo: "Cláudio entrega copa para os jogadores de San Marino, mas fica com ela posteriormente",
         descricao: "Logo depois de cerimônia de comemoração da seleção de San Marino, Cláudio Goodbarras leva outra copa para Uganda",
         imagem: "/images/claudioCopa.png",
-        link: "/noticias/noticias.html?id=7"
+        link: "/noticias/noticias.html?id=5"
     }
 ];
 
