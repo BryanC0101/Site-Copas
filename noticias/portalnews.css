@@ -201,11 +201,24 @@ nav a:hover::after {
     opacity: 0.8;
 }
 
+.up-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.pesquisa input {
+    width: 800px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
 
 @media (max-width: 768px) {
-
-
     nav {
         position: relative;
         justify-content: space-between;
@@ -329,6 +342,16 @@ nav a:hover::after {
 
     .noticia img:hover {
         transform: none;
+    }
+
+    .pesquisa input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
     }
 }
 
