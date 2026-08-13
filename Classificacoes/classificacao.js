@@ -16,6 +16,8 @@ hamburger.addEventListener("click", () => {
 
 const selecoesIniciais = [
 
+    // EUROPA
+
     {
         nome: "Albânia",
         pontos: 1376.03
@@ -48,12 +50,12 @@ const selecoesIniciais = [
 
     {
         nome: "Bélgica",
-        pontos: 1778.36
+        pontos: 1744.77
     },
 
     {
         nome: "Bósnia e Herzegovina",
-        pontos: 1408.93
+        pontos: 1352.18
     },
 
     {
@@ -63,7 +65,7 @@ const selecoesIniciais = [
 
     {
         nome: "Croácia",
-        pontos: 1723.05
+        pontos: 1659.34
     },
 
     {
@@ -73,17 +75,17 @@ const selecoesIniciais = [
 
     {
         nome: "República Tcheca",
-        pontos: 1467.26
+        pontos: 1348.98
     },
 
     {
         nome: "Dinamarca",
-        pontos: 1619.47
+        pontos: 1591.33
     },
 
     {
         nome: "Inglaterra",
-        pontos: 1922.83
+        pontos: 1855.87
     },
 
     {
@@ -103,7 +105,7 @@ const selecoesIniciais = [
 
     {
         nome: "França",
-        pontos: 1948.97
+        pontos: 1919.22
     },
 
     {
@@ -113,17 +115,17 @@ const selecoesIniciais = [
 
     {
         nome: "Alemanha",
-        pontos: 1726.22
+        pontos: 1692.72
     },
 
     {
         nome: "Gibraltar",
-        pontos: 820.26
+        pontos: 950.13
     },
 
     {
         nome: "Grécia",
-        pontos: 1473.19
+        pontos: 1443.94
     },
 
     {
@@ -148,7 +150,7 @@ const selecoesIniciais = [
 
     {
         nome: "Itália",
-        pontos: 1704.73
+        pontos: 1626.29
     },
 
     {
@@ -198,7 +200,7 @@ const selecoesIniciais = [
 
     {
         nome: "Holanda",
-        pontos: 1775.54
+        pontos: 1778.20
     },
 
     {
@@ -213,7 +215,7 @@ const selecoesIniciais = [
 
     {
         nome: "Noruega",
-        pontos: 1651.29
+        pontos: 1589.07
     },
 
     {
@@ -223,7 +225,7 @@ const selecoesIniciais = [
 
     {
         nome: "Portugal",
-        pontos: 1787.85
+        pontos: 1754.78
     },
 
     {
@@ -238,7 +240,7 @@ const selecoesIniciais = [
 
     {
         nome: "San Marino",
-        pontos: 721.20
+        pontos: 1207.35
     },
 
     {
@@ -248,7 +250,7 @@ const selecoesIniciais = [
 
     {
         nome: "Sérvia",
-        pontos: 1502.13
+        pontos: 1381.84
     },
 
     {
@@ -263,22 +265,22 @@ const selecoesIniciais = [
 
     {
         nome: "Espanha",
-        pontos: 1995.88
+        pontos: 1895.27
     },
 
     {
         nome: "Suécia",
-        pontos: 1525.58
+        pontos: 1493.34
     },
 
     {
         nome: "Suíça",
-        pontos: 1710.88
+        pontos: 1677.92
     },
 
     {
         nome: "Turquia",
-        pontos: 1582.54
+        pontos: 1548.95
     },
 
     {
@@ -341,12 +343,12 @@ const selecoesIniciais = [
 
     {
         nome: "Costa do Marfim",
-        pontos: 1565.47
+        pontos: 1538.72
     },
 
     {
         nome: "Egito",
-        pontos: 1597.04
+        pontos: 1565.56
     },
 
     {
@@ -386,7 +388,7 @@ const selecoesIniciais = [
 
     {
         nome: "Nigéria",
-        pontos: 1585.02
+        pontos: 1490.98
     },
 
     {
@@ -396,7 +398,7 @@ const selecoesIniciais = [
 
     {
         nome: "Somália",
-        pontos: 839.17
+        pontos: 1121.76
     },
 
     {
@@ -494,7 +496,7 @@ const selecoesIniciais = [
 
     {
         nome: "Estados Unidos",
-        pontos: 1690.33
+        pontos: 1624.35
     },
 
 
@@ -502,7 +504,7 @@ const selecoesIniciais = [
 
     {
         nome: "Argentina",
-        pontos: 1970.37
+        pontos: 1902.45
     },
 
     {
@@ -512,7 +514,7 @@ const selecoesIniciais = [
 
     {
         nome: "Brasil",
-        pontos: 1804.92
+        pontos: 1771.95
     },
 
     {
@@ -532,7 +534,7 @@ const selecoesIniciais = [
 
     {
         nome: "Paraguai",
-        pontos: 1542.48
+        pontos: 1510.75
     },
 
     {
@@ -542,7 +544,7 @@ const selecoesIniciais = [
 
     {
         nome: "Uruguai",
-        pontos: 1634.70
+        pontos: 1601.81
     },
 
     {
@@ -615,7 +617,7 @@ const selecoesIniciais = [
 
     {
         nome: "Japão",
-        pontos: 1673.68
+        pontos: 1641.11
     },
 
     {
@@ -635,7 +637,7 @@ const selecoesIniciais = [
 
     {
         nome: "Laos",
-        pontos: 885.03
+        pontos: 1024.84
     },
 
     {
@@ -705,7 +707,7 @@ const selecoesIniciais = [
 
     {
         nome: "Coreia do Sul",
-        pontos: 1558.72
+        pontos: 1462.54
     },
 
     {
@@ -725,7 +727,7 @@ const selecoesIniciais = [
 
     {
         nome: "Timor-Leste",
-        pontos: 831.00
+        pontos: 1255.81
     },
 
     {
