@@ -43,28 +43,19 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Entrevista exclusiva com Johnny Schorros",
-        descricao: "Johnny aborda sua vida e suas opiniões a cerca de Cláudio Goodbarras em entrevista exclusiva",
-        imagem: "/noticias/entrevista.png",
-        link: "/noticias/noticias.html?id=8"
+        titulo: "San Marino cai para Gibraltar nas oitavas de final, mas Gibraltar também cai, para o Uruguai",
+        descricao: "San Marino cai, mas os amigos Uruguaios vingam",
+        imagem: "/images/GibraltarPerdendo.png",
+        link: "/noticias/noticias.html?id=10"
     },
 
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "San Marino conquista mais um Título e se torna Bi Campeão Mundial",
-        descricao: "Os Indestrutíveis Marinenses surpreendem mais uma vez vencendo com facilidade a Inglaterra na final tendo Cláusio Goodbarras como protagonista.",
-        imagem: "images/imagem san marino melhorada.png",
-        link: "/noticias/noticias.html?id=1"
+        titulo: "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri Campeão Mundial",
+        descricao: "San Marino é Tri Campeão Mundial",
+        imagem: "/images/triCampeaoSanMarino.png",
+        link: "/noticias/noticias.html?id=9"
     },
-
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Veja a reação da torcida somali após a derrota para a Holanda nas oitavas de final",
-        descricao: "Multidões nas ruas tristes com a queda da seleção da Somália",
-        imagem: "/images/somaliaCai.png",
-        link: "/noticias/noticias.html?id=4"
-    },
-
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Técnico da seleção da Somália é demitido após Copa",
@@ -79,7 +70,14 @@ const noticias = [
         descricao: "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
         imagem: "images/clausioBoladeouro.png",
         link: "/noticias/noticias.html?id=3"
-    }
+    },
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "Entrevista exclusiva com Johnny Schorros",
+        descricao: "Johnny aborda sua vida e suas opiniões a cerca de Cláudio Goodbarras em entrevista exclusiva",
+        imagem: "/noticias/entrevista.png",
+        link: "/noticias/noticias.html?id=8"
+    },
 ];
 
 

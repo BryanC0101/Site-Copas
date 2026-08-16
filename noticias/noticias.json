@@ -150,9 +150,9 @@
 
         {
         "id": 9,
-        "titulo": "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri campleão mundial",
+        "titulo": "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri Campeão Mundial",
         "data": "16 ago 2026",
-        "imagem": "/noticias/triCampeaoSanMarino.png",
+        "imagem": "/images/triCampeaoSanMarino.png",
         "resumo": "San Marino é Tri Campeão Mundial",
         "subtitulo": "San Marino é Tri Campeão Mundial",
         "paragrafos": [
@@ -164,7 +164,33 @@
             "\"Foi bom mais poderia ter sido melhor, a gente ganhou esse prêmio ai, claro, pela qualidade dos nossos jogos, Cláusio e companhia, mas teve uma ajudinha da arbitragem que está sempre ai com a gente, mas é isso né, fazer o que, ganhei, queiram ou não.\"",
             ""
         ],
-        "imagemInfo": "/noticias/johnnycopaTriCampeao.png",
+        "imagemInfo": "/images/johnnycopaTriCampeao.png",
         "legenda": "A seleção que todos amam e que será para sempre uma pedra no sapato para qualquer seleção."
+    },
+
+    {
+        "id": 10,
+        "titulo": "San Marino cai para Gibraltar nas oitavas de final, mas Gibraltar também cai, para o Uruguai",
+        "data": "16 ago 2026",
+        "imagem": "/images/GibraltarPerdendo.png",
+        "resumo": "San Marino cai, mas os amigos Uruguaios vingam",
+        "subtitulo": "San Marino cai, mas os amigos Uruguaios vingam",
+        "paragrafos": [
+            "San Marino vinha de uma campanha histórica, tendo conquistado o Tri campeonato com duas conquistas consecutivas nas edições anteriores, mas dessa vez, o ciclo se quebrou.",
+            "Ao pegar uma fase de grupos super apertada que continha Alemanha, Inglaterra e Espanha, San Marino empatou com as duas primeiras e se classificou em segundo ao vencer por 3x2 a Espanha de Luis de la Fuente.",
+            "Nas oitavas tudo desandou, com um time praticamente irreconhecível comparado as últimas copas, perdeu para Gibraltar de Fedo Scafaldi, que vinha de uma péssima gestão de seus últimos trabalhos na Somália (demitido) e em Brunei Darussalam (saiu porque quis), que foi ainda pior.",
+            "A seleção de Gibraltar (sem Hans Chow, surpreendentemente) precisou tirar uma carta secreta que a muito tempo ninguém via ou ouvia falar, Everton Camargo, mais conhecido atualmente como Everto Camargo.",
+            "A defesa de San Marino se complicou com o estilo malicioso de Fedo Scafaldi, usando um Tiki-Taka muita capaz que anulou por vezes a zaga, outorgando a Everto Camargo a possiblidade para chutes fora da área.",
+            "San Marino até conseguiu chegar perto da vitória ao chegar em um 2x1 confortável, pois Cláusio parecia que faria logo logo um gol, mas não foi o caso.",
+            "Johnny Schorros da seleção de Gibraltar tinha outros planos e derrotou a querida seleção São Marinense num placar de 5x2 para Gibraltar para a triste e raiva do técnico Andrey Malakovitch Djangosvky.",
+            "\"Eu sabia que eles iriam perder, eu sabia, eu falei isso antes do jogo no vestiário para esses imorais, é complicado, sou pessimista, não tem jeito!\", disse o professor.",
+            "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
+            "Gibraltar tinha a vitória e era só chegar a copa e levantá-la, mas havia uma pedra no caminho, ou  melhor, no caminho havia uma pedra, chamada Uruguai.",
+            "Ninguém esperava que a seleção que havia acabado de derrotar o poderoso San Marino iria perder para o Uruguai que não vinha fazendo um torneio tão bom, mas aconteceu.",
+            "Gibraltar até dominou, mas Johnny Schorros perdeu um penalti no tempo regulamentar e a partida se extendeu até a prorrogação. Após nenhuma efetividade das duas seleções, tudo teve que ser decidido nas penalidades máximas.",
+            "Com cobranças feias de Gibraltar, chutando apenas no meio e o goleiro não pegando nenhuma, a não ser a última, o Uruguai conquistou 100% de aproveitamento nos chutes e ganhou de Gibraltar."
+        ],
+        "imagemInfo": "/images/copadomundoreal.png",
+        "legenda": "Dessa vez, nem Fedo ou Andrey conquistaram o título, mas quem será dono do próximo?"
     }
 ]
