@@ -146,5 +146,25 @@
             "- Mas ele te insultou Johnny, acho que ele não gosta muito de você.",
             "\"mentira, gosta sim, a gente é amigo, bastante amigo, ele gosta de jogar bola e eu também, pronto!\""
         ]
+    },
+
+        {
+        "id": 9,
+        "titulo": "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri campleão mundial",
+        "data": "16 ago 2026",
+        "imagem": "/noticias/triCampeaoSanMarino.png",
+        "resumo": "San Marino é Tri Campeão Mundial",
+        "subtitulo": "San Marino é Tri Campeão Mundial",
+        "paragrafos": [
+            "Todos sabem que San Marino é uma das maiores seleções dos últimos tempos, mas agora ficou escancarada a potência que esse time possui, a garra e magia dessa adorável seleção.",
+            "Depois da partida contra Brunei Darussalam que foi tranquilamente administrada pela seleção San Marinense numa vitória de 4x2, a prova foi bater a França nas semi-finais.",
+            "A partida começou complicada, logo no primeiro tempo San Marino tomou um gol, mas graças a letalidade de Cláusio Goodbarras, o time acabou empatando e virando posteriormente, num jogo que terminou em incríveis 4x1 para San Marino.",
+            "Já a final foi simples, 4x0 para San Marino contra a fraquíssima Noruega.",
+            "Andrey Malakovitch Djangovsky, técnico da seleção Tri campeã nos deu uma entrevista pós vitória na final.",
+            "\"Foi bom mais poderia ter sido melhor, a gente ganhou esse prêmio ai, claro, pela qualidade dos nossos jogos, Cláusio e companhia, mas teve uma ajudinha da arbitragem que está sempre ai com a gente, mas é isso né, fazer o que, ganhei, queiram ou não.\"",
+            ""
+        ],
+        "imagemInfo": "/noticias/johnnycopaTriCampeao.png",
+        "legenda": "A seleção que todos amam e que será para sempre uma pedra no sapato para qualquer seleção."
     }
 ]
