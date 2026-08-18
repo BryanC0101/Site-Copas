@@ -129,13 +129,6 @@ const jogadores = [
     },
     {
         foto: "/Estatisticas/imagesProfile/outro.jpg",
-        nome: "Kian Ronan",
-        selecao: "Gibraltar",
-        gols: 0,
-        assistencias: 3,
-    },
-    {
-        foto: "/Estatisticas/imagesProfile/outro.jpg",
         nome: "Enrico Golinucci",
         selecao: "San Marino",
         gols: 0,
@@ -160,7 +153,7 @@ const jogadores = [
         nome: "Kian Ronan",
         selecao: "Gibraltar",
         gols: 1,
-        assistencias: 0,
+        assistencias: 3,
     },
     {
         foto: "/Estatisticas/imagesProfile/outro.jpg",
