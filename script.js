@@ -43,12 +43,19 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "TETRA CAMPEÃO!!!!! San Marino conquista mais um título",
+        descricao: "Senhoras e senhores, San Marino é TETRA CAMPEÃO MUNDIAL!",
+        imagem: "/images/tetraSanMarino.png",
+        link: "/noticias/noticias.html?id=11"
+    },
+
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "San Marino cai para Gibraltar nas oitavas de final, mas Gibraltar também cai, para o Uruguai",
         descricao: "San Marino cai, mas os amigos Uruguaios vingam",
         imagem: "/images/GibraltarPerdendo.png",
         link: "/noticias/noticias.html?id=10"
     },
-
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri Campeão Mundial",
@@ -56,6 +63,7 @@ const noticias = [
         imagem: "/images/triCampeaoSanMarino.png",
         link: "/noticias/noticias.html?id=9"
     },
+
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Técnico da seleção da Somália é demitido após Copa",
@@ -63,20 +71,12 @@ const noticias = [
         imagem: "/images/copaebola.webp",
         link: "/noticias/noticias.html?id=2"
     },
-
     {
         categoria: "HISTÓRIA DO FUTEBOL",
         titulo: "Cláusio Goodbarras ganha o prêmio bola de ouro",
         descricao: "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
         imagem: "images/clausioBoladeouro.png",
         link: "/noticias/noticias.html?id=3"
-    },
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Entrevista exclusiva com Johnny Schorros",
-        descricao: "Johnny aborda sua vida e suas opiniões a cerca de Cláudio Goodbarras em entrevista exclusiva",
-        imagem: "/noticias/entrevista.png",
-        link: "/noticias/noticias.html?id=8"
     },
 ];
 

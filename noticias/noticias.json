@@ -192,5 +192,24 @@
         ],
         "imagemInfo": "/images/copadomundoreal.png",
         "legenda": "Dessa vez, nem Fedo ou Andrey conquistaram o título, mas quem será dono do próximo?"
+    },
+
+    {
+        "id": 11,
+        "titulo": "TETRA CAMPEÃO!!!!! San Marino conquista mais um título",
+        "data": "22 ago 2026",
+        "imagem": "/images/tetraSanMarino.png",
+        "resumo": "",
+        "subtitulo": "Senhoras e senhores, San Marino é TETRA CAMPEÃO MUNDIAL!",
+        "paragrafos": [
+            "A história foi feita, Cláudio Goodbarras e seu filho, Cláusio Goodbarras, conquistam a copa do mundo mais uma vez para a seleção de San Marino.",
+            "A torcida azul e branco comemorou essa tarde a vitória humilhante do time brilhante contra a freguesa França, chegando a 5 gols na partida final contra 0 do lado francês.",
+            "Mais do que terem ganho o sonhado troféu, o time jogou com raça e demonstrou para que veio. O símbolo de esperança para a seleção San Marinense foi uma figura a muito dita, pelos críticos, como defasada, essa figura foi Cláudio Goodbarras, que voltou de sua aposentadoria para mostrar quem manda no futebol.",
+            "Ele não apenas ajudou/auxiliou o time a ganhar, ele foi a peça central do time, consagrando os 5 gols na final em sua conta. Foi emocionante ver pai e filho, duas lendas de épocas diferentes, trazerem o título para casa juntos.",
+            "Infelizmente, dessa vez, não tivemos contato com o técnico Andrey Malakovitch Djangovsky, que estava ausênte da partida final, pois havia dito, já nas oitavas de final, que o time já havia ganho mesmo e foi tirar suas férias no Sri Lanka.",
+            "Fedo Scafaldi também não foi encontrado para dar entrevista após sua derrota vexaminosa para o México nas oitavas de final, ao que parece, ele foi instruido a deixar a seleção de Gibraltar a mando do empresário John Schorros. Ninguém sabe de seu paradeiro."
+        ],
+        "imagemInfo": "",
+        "legenda": ""
     }
 ]
