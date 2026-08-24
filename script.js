@@ -43,7 +43,7 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Moldávia conquista o título e é Campeão Mundial!",
+        titulo: "Moldávia conquista o título e é Campeã Mundial!",
         descricao: "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
         imagem: "/images/moldavaCampea.png",
         link: "/noticias/noticias.html?id=13"
