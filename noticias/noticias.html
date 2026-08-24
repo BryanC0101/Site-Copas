@@ -67,7 +67,25 @@
         </div>
 
     </main>
+    <div id="disqus_thread"></div>
 
+    <script>
+        var disqus_config = function () {
+            this.page.url = window.location.href;
+            this.page.identifier = document.title;
+        };
+
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://brprozera.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+    <noscript>
+        Ative o JavaScript para visualizar os comentários.
+    </noscript>
 
     <script src="noticias.js"></script>
 
