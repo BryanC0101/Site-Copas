@@ -211,5 +211,44 @@
         ],
         "imagemInfo": "",
         "legenda": ""
+        
+        
+    },
+    {
+        "id": 12,
+        "titulo": "A despedida angustiante de San Marino dessa copa",
+        "data": "23 ago 2026",
+        "imagem": "/images/johnnyeclausio.png",
+        "resumo": "",
+        "subtitulo": "O mundo sente por San Marino",
+        "paragrafos": [
+            "Todo mundo sabe que a vida é feita de encontros e despedidas né. Despedidas são mais tristes, mais emocionantes, mas eu fiquei sabendo de uma despedida tão emocionante, tão SOFRIDA! sabe qual é essa despedia? a despedida de San Marino da copa do mundo!!",
+            "A seleção San Marinense tinha tudo para chegar ao pentacampeonato, mas escorregaram, num deslize maldoso, para a Alemanha nas semi-finais do torneio.",
+            "Parecia que o mundo estava contra San Marino. Vi o técnico Andrey Malakovitch Djangovsky no banco chorando, já nos 10 primeiros minutos de jogo, com os braços aos céus, gritando \"POR QUE EU, POR QUE EEEEU, EU NÃO MEREÇO ISSO, EU NÃO MEREEÇO\", foi triste ver essa cena pois ele já sabia o que aconteceria posteriormente.",
+            "E o que mais é intrigante é que todos no estádio, as 120 mil pessoas presentes com suas camisas azul e branco, confiávam plenamente na vitória, mas a Alemanha estava atípica neste dia.",
+            "Em um jogo surpreendente, com jogadas incríveis dos dois lados, a Alemanha inaugurou o placar, mas Cláusio conseguiu empatar para, poucos minutos depois, a Alemanha marcar mais um numa jogada impossível de conter e levar a vitória.",
+            "\"Hoje não deu, não deu caramba, tá me entendendo, não deu e pronto, é isso que você queriam seus schorristas? é isso? todos vocês ai da televisão, rádio, novela, jornal, papagaio, se acham os bonzões, todos schorristas pra mim.\", disse Andrey para uma emissora estadunidense.",
+            "Hoje, senhoras e senhores, o mundo chora com o téncico Andrey M. Djangovsky. Sabemos de seu comprometimento com o time e estaremos confiantes em seu próximo trabalho pela seleção maravilhosa."
+        ],
+        "imagemInfo": "",
+        "legenda": ""
+    },
+    {
+        "id": 13,
+        "titulo": "Moldávia conquista o título e é Campeão Mundial!",
+        "data": "23 ago 2026",
+        "imagem": "/images/moldavaCampea.png",
+        "resumo": "",
+        "subtitulo": "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
+        "paragrafos": [
+            "Nessa copa, o técnico Fedo Scafaldi da seleção moldava prometia revolucionar, dizendo que sua péssima gestão nas edições anteriores não eram parâmetro para seu talento como técnico, hoje ele demonstra que ainda pode entregar o que Andrey Malakovitch Djangovsky, técnico excepcional, entregou nas útlimas copas em que venceu.",
+            "O professor italiano, que havia sumido nesses útlimos tempos após deixar a seleção de Gibraltar, voltou a gerenciar uma seleção pouco tradicional no futebol, dessa vez foi a Moldávia, levando consigo Johnny Schorros, lenda incontestável e parceiro de longa data de Fedo, e outra figura que não havia vingado em suas últimas copas, mas que dessa vez foi o fator crucial que fez com que a Moldávia conquistasse o troféu, o indivíduo que atende pelo nome de Everto Camargo.",
+            "Pela primeira vez Everto foi o fator chave no comando do técnico italiano, tendo alguns lapsos de habilidade em outras edições mas não vingando em nenhuma delas, dessa vez ele chamou a responsabilidade e desbancou o espaço, antes ocupado por Johnny Schorros e até Hans Chow, de artilheiro do time.",
+            "Com o placar de 6x0 contra a Alemanha, a Moldávia é campeã mundial.",
+            "A conquista do técnico, embora surpreendente e digna de parabenização, causou indignação internacional, nos amistosos tradicionais após a copa contra a seleção de San Marino pela violência empregada, lesionando o artilheiro do time San Marinense, Cláusio Goodbarras em um dos amistosos.",
+            "Andrey M. Djangovsky acusou a seleção moldava de maldade extrema após as partidas e disse que tomará medidas drásticas em futuros encontros."
+        ],
+        "imagemInfo": "/images/COPA2.jpg",
+        "legenda": "Seria o início de uma brilhante campanha de Fedo ou apenas um mero momento de sorte?"
     }
 ]

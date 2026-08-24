@@ -7,6 +7,13 @@
 
 :root {
     color-scheme: light;
+    --cor-nav: linear-gradient(
+        90deg,
+        #0046aee8 0%,
+        #0046AE 30%,
+        #b6334db2 70%,
+        #91132cfd 100%
+    );
 }
 
 html,
@@ -27,12 +34,7 @@ nav {
     align-items: center;
     justify-content: space-between;
 
-    background: linear-gradient(
-        135deg,
-        #033b68 0%,
-        #044c84 50%,
-        #0565a8 100%
-    );
+    background: var(--cor-nav);
 
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
 

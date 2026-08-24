@@ -43,6 +43,21 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "Moldávia conquista o título e é Campeão Mundial!",
+        descricao: "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
+        imagem: "/images/moldavaCampea.png",
+        link: "/noticias/noticias.html?id=13"
+    },
+
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "A despedida angustiante de San Marino dessa copa",
+        descricao: "O mundo sente por San Marino",
+        imagem: "/images/johnnyeclausio.png",
+        link: "/noticias/noticias.html?id=12"
+    },
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "TETRA CAMPEÃO!!!!! San Marino conquista mais um título",
         descricao: "Senhoras e senhores, San Marino é TETRA CAMPEÃO MUNDIAL!",
         imagem: "/images/tetraSanMarino.png",
@@ -62,21 +77,6 @@ const noticias = [
         descricao: "San Marino é Tri Campeão Mundial",
         imagem: "/images/triCampeaoSanMarino.png",
         link: "/noticias/noticias.html?id=9"
-    },
-
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Técnico da seleção da Somália é demitido após Copa",
-        descricao: "Após cair nas oitavas, o treinador deixa o comando da seleção logo após o fim da competição.",
-        imagem: "/images/copaebola.webp",
-        link: "/noticias/noticias.html?id=2"
-    },
-    {
-        categoria: "HISTÓRIA DO FUTEBOL",
-        titulo: "Cláusio Goodbarras ganha o prêmio bola de ouro",
-        descricao: "Em sua primeiro copa de sua curta carreira, Cláusio Goodbarras é condecorado com a bola de ouro",
-        imagem: "images/clausioBoladeouro.png",
-        link: "/noticias/noticias.html?id=3"
     },
 ];
 
