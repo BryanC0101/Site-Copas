@@ -75,10 +75,13 @@
             this.page.identifier = 'noticia-' + new URLSearchParams(window.location.search).get('id');
         };
 
-        (function() {
-            var d = document, s = d.createElement('script');
+        (function () {
+            var d = document;
+            var s = d.createElement('script');
+
             s.src = 'https://brprozera.disqus.com/embed.js';
             s.setAttribute('data-timestamp', +new Date());
+
             (d.head || d.body).appendChild(s);
         })();
     </script>
@@ -86,7 +89,6 @@
     <noscript>
         Ative o JavaScript para visualizar os comentários.
     </noscript>
-
 </body>
 
 </html>
