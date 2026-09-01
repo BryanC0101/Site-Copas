@@ -43,12 +43,19 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "Moldávia é BI Campeã Mundial",
+        descricao: "Com a sorte em suas mãos, Fedo Scafaldi leva a Moldávia ao Bi Campeonato",
+        imagem: "/images/moldavia2.png",
+        link: "/noticias/noticias.html?id=14"
+    },
+
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Moldávia conquista o título e é Campeã Mundial!",
         descricao: "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
         imagem: "/images/moldavaCampea.png",
         link: "/noticias/noticias.html?id=13"
     },
-
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "A despedida angustiante de San Marino dessa copa",
@@ -56,6 +63,7 @@ const noticias = [
         imagem: "/images/johnnyeclausio.png",
         link: "/noticias/noticias.html?id=12"
     },
+
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "TETRA CAMPEÃO!!!!! San Marino conquista mais um título",
@@ -63,20 +71,12 @@ const noticias = [
         imagem: "/images/tetraSanMarino.png",
         link: "/noticias/noticias.html?id=11"
     },
-
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "San Marino cai para Gibraltar nas oitavas de final, mas Gibraltar também cai, para o Uruguai",
         descricao: "San Marino cai, mas os amigos Uruguaios vingam",
         imagem: "/images/GibraltarPerdendo.png",
         link: "/noticias/noticias.html?id=10"
-    },
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "San Marino fez mais uma fez, conquistou a copa do mundo e é Tri Campeão Mundial",
-        descricao: "San Marino é Tri Campeão Mundial",
-        imagem: "/images/triCampeaoSanMarino.png",
-        link: "/noticias/noticias.html?id=9"
     },
 ];
 

@@ -250,5 +250,27 @@
         ],
         "imagemInfo": "/images/COPA2.jpg",
         "legenda": "Seria o início de uma brilhante campanha de Fedo ou apenas um mero momento de sorte?"
+    },
+    {
+        "id": 14,
+        "titulo": "Moldávia é BI Campeã Mundial",
+        "data": "23 ago 2026",
+        "imagem": "/images/moldavia2.png",
+        "resumo": "",
+        "subtitulo": "Com a sorte em suas mãos, Fedo Scafaldi leva a Moldávia ao Bi Campeonato",
+        "paragrafos": [
+            "Em uma copa repleta de polêmicas, absurdos e adulterações, a Moldávia caminhou por cima e chegou a final, levantou o título para a sua glória.",
+            "Sim, todos sabia que eles possuiam chances reais de tal feito, porém, a forma como a história foi conduzida foi repleta de estranhezas que são impossíveis de desconsiderar.",
+            "Em uma entrevista com o magnânimo técnico Andrey Malakovitch Djangovsky, ele nos revelou detalhes importantes que foram cruciais para a seleção Moldava ter vencido a Copa do Mundo dessa edição, veja:",
+            "\"Ganharam por sorte, isso sim. Vocês acham normal aquele goleiro da Argentina entregar a bola daquele jeito? ou a Itália ser tão incapaz assim? é um absurdo, sugiro o cancelamento da copa e a entrega da mesma para mim, que tive mais dificuldades com seleções completamente malcráticas e desproporcionais.\"",
+            "Concordando ou não com as afirmações do técnico Andrey, a Moldávia sim obteve sucesso onde buscava, encontrou uma figura jovem que pode ser o futuro para a seleção nas próximas edições, Everto Camargo, que já não se caracteriza mais como um \"outsider\", mas sim como uma peça central no tabuleiro de Fedo Scafaldi.",
+            "Veja o que alguns internautas dizem sobre a conquista:",
+            "\"Gostei bastante de ver o Everto sendo tão aclamado por torcedores do mundo todo, sempre achei ele um cara especial que merecia reconhecimento!\"",
+            "Outro diz:",
+            "\"Esse Everto não vale nada, é um imoral! todos sabem que é só questão de tempo para ele piorar e o Fedo retirar ele da equipe, foi assim com o Hans Chow e logo logo vai ser ele. Se prepara Everto, suas malas devem estar prontas para esse momento!\"",
+            "A crítica especializada diz que a Moldávia é sim uma grande concorrente para as próximas copas mas que não será fácil bater de frente com as seleções mais tradicionais no torneio."
+        ],
+        "imagemInfo": "/images/moldavia1.png",
+        "legenda": "Será que teremos concorrência a altura dessa Moldávia nas próximas copas? Fique de olho Fedo!"
     }
 ]
