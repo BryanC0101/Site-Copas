@@ -272,5 +272,24 @@
         ],
         "imagemInfo": "/images/moldavia1.png",
         "legenda": "Será que teremos concorrência a altura dessa Moldávia nas próximas copas? Fique de olho Fedo!"
+    },
+        {
+        "id": 15,
+        "titulo": "A natureza impede que Moldávia ganhe outra copa",
+        "data": "04 set 2026",
+        "imagem": "/images/chuvaNoEstádio.jpg",
+        "resumo": "",
+        "subtitulo": "Tempestades e vendavais adiam copa do mundo e schorristas acusam Cláudio Goodbarras",
+        "paragrafos": [
+            "Nesse último domingo de copa do mundo, uma catástrofe climática impossibilitou com que o torneio tivesse um fim.",
+            "Um forte vendavál com rachadas de chuva intensas proclamaram o adiamento da copa do mundo justamente no jogo de Moldávia e Noruega no início do segundo tempo.",
+            "As chuvas foram tão intensas que levaram parte do gramado e a estrutura do estádio, e o único que continuou em campo foi o jogador Johnny Schorros, que afirma veemente ter marcado 54 gols desde a saída de todos do estádio. Por sorte não foi levado pelos ventos.",
+            "Nas redes sociais, principalmente no Schorrosgram, vários usuários acusam que Cláudio Goodbarras, juntamente com Andrey Malakovitch Djangovsky, técnico de San Marino, foram os principais causadores da trajédia.",
+            "Um dia antes da partida, Andrey postou em sua rede social, DieSchorrosgram, o trecho final da música \"A Hard Rain’s A‐Gonna Fall\" do cantor-compositor Bob Dylan.",
+            "Alguns opositores ao técnico afirmam que há sim, indicios suficientes para comprovar que ele pode ter envolvimento no acontecimento com a ajuda das técnologias ugandanas de Cláudio Goodbarras, outros, apoiadores, dizem que ele apenas viu a previsão do tempo para o dia da partida."
+            
+        ],
+        "imagemInfo": "/images/campoMolhado.jpg",
+        "legenda": "A copa será continuada no fim dessa semana, a não ser que uma chuva forte novamente caia!"
     }
 ]
