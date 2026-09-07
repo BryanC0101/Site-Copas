@@ -52,7 +52,7 @@ const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Moldávia, Tri Campeã Mundial!",
-        descricao: "Moldávia extende sequência de copas vencidas e ganha o torneio",
+        descricao: "Moldávia estende sequência de copas vencidas e ganha o torneio",
         imagem: "/images/flags/moldavia.svg",
         link: "/noticias/noticias.html?id=16"
     },
