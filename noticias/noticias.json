@@ -291,5 +291,45 @@
         ],
         "imagemInfo": "/images/campoMolhado.jpg",
         "legenda": "A copa será continuada no fim dessa semana, a não ser que uma chuva forte novamente caia!"
+    },
+    {
+        "id": 16,
+        "titulo": "Moldávia, Tri Campeã Mundial!",
+        "data": "07 set 2026",
+        "imagem": "/images/flags/moldavia.svg",
+        "resumo": "",
+        "subtitulo": "Moldávia extende sequência de copas vencidas e ganha o torneio",
+        "paragrafos": [
+           "O triúnfo de um time que captura um momento histórico, onde as grandes seleções passadas tropeçam em pequenas pedras no caminho e deixam passar as seleções novatas.",
+           "Nesse último sábado, o mundo testemunhou o tri campeonato de seleção moldava, e ninguém sabe realmente o que dizer a respeito disso.",
+           "Além disso, Fedo Scafaldi se torna o técnico com mais copas do mundo na história desse universo, passando Andrey Malakovitch Djangovsky, que detem 4 copas.",
+           "A partida final foi tão notável e digna de glórias que a taxa mundial de crimes no hemisfério schorrista despencou mais de 60% em razões das festas pela vitória surpreendente.",
+           "Everto Camargo, a estrela do time, citou o técnico Fedo Scafaldi em seu Schorrosgram parabenizando-o pelo bom treinamento e se pôs a disposição do italiano para as próximas copas.",
+           "Já Johnny Schorros disse que ainda gosta muito de jogar futebol, e quer jogar mais ainda.",
+           "Opositores à seleção moldava evidenciam as práticas de maldade cometidas pela seleção ao longo do torneio e amistosos, dizendo que \"ganham apenas na maldade\", frase popularizada pelo técnico Andrey M. Djangovsky.",
+           ""
+            
+        ]
+    },
+        {
+        "id": 17,
+        "titulo": "O técnico Andrey Malakovitch Djangovsky acerta novamente e é campeão mundial!",
+        "data": "07 set 2026",
+        "imagem": "/images/flags/Flag-Vietnam.webp",
+        "resumo": "",
+        "subtitulo": "Vietnã é campeão mundial pela primeira vez na história das copas",
+        "paragrafos": [
+            "Muitos lembrarão dessa última copa como uma evento histórico, um momento para se lembrar para o resto da vida.",
+            "Andrey vinha de uma sequência inexplicável de derrotas com a grandiosa seleção de San Marino, dela que Andrey outorgou 4 copas do mundo, e que cravou seu nome na história do torneio.",
+            "Após vexames e tropeços, o professor tomou a difícil decisão de abandonar a seleção San Marinense para a tristeza dos fãs e dos habitantes do novo país do futebol.",
+            "Sua decisão foi vista como covarde, derrotista para muitos, mas Andrey não deu ouvidos aos schorristas que especificavam problemas em seu \"mindset\" e rumou para a glória inerente ao seu nome.",
+            "Em uma carta escrita e lida em rede mundial escrita por Andrey para o povo de San Marino e seus fãs, ele disse:",
+            "\"Foi uma honra para vocês ter a mim como técnico, eu também achei bacana, mas nós, seres de grande espírito, devemos saber o momento certo de parar, o momento em que a descida parece ficar mais funda e o céu mais escuro. Ao querido Mateo Vitaiolli, ao qual eu estimo muito, meu grande abraço, e para Grandoni, que a paz esteja contigo camarada, enquanto estiver nessa terra! pois a vida é curta meu amigo, aproveite ela bem e tome cuidado onde pisa. Aos demais, meu carinho e gratidão, pois sem mim difícilmente alguém conheceria esse pedaço de mundo esquecido nos mapas.\"",
+            "Após isso, o técnico russo recebeu diversas propostas de diversas seleções para gerenciar, e sua escolha foi o Vietnã.",
+            "Não é necessário narrar os acontecimentos da copa, todos já sabem, apenas deixo uma menção honrosa ao grande artilheiro Cláudio Goodbarras, que fez um dos gols mais épicos da história de fora da área. O estádio, assim como todos os torcedores do mundo todo, foram a loucura após tal feito. Algo emblemático que lembraremos com carinho e esperamemos com veemencia um replay dessas habilidades para as próximas copas.",
+            "----------------------",
+            "E claro, sem deixar de mencionar, Fedo Scafaldi tropeça no ego de ser Tri campeão e cai na fase de grupos para a Argentina, a mesma que fora derrotada pelos vietnamitas na final."
+            
+        ]
     }
 ]

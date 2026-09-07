@@ -9,10 +9,11 @@
     color-scheme: light;
     --cor-nav: linear-gradient(
         90deg,
-        #0046aee8 0%,
+        /* #0046aee8 0%,
         #0046AE 30%,
         #b6334db2 70%,
-        #91132cfd 100%
+        #91132cfd 100% */
+        #cc2d2dfd 100%
     );
 }
 

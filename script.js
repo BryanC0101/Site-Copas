@@ -45,6 +45,21 @@ const noticias = [
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "A natureza impede que Moldávia ganhe outra copa",
         descricao: "Tempestades e vendavais adiam copa do mundo e schorristas acusam Cláudio Goodbarras",
+        imagem: "/images/flags/Flag-Vietnam.webp",
+        link: "/noticias/noticias.html?id=17"
+    },
+
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "Moldávia, Tri Campeã Mundial!",
+        descricao: "Moldávia extende sequência de copas vencidas e ganha o torneio",
+        imagem: "/images/flags/moldavia.svg",
+        link: "/noticias/noticias.html?id=16"
+    },
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "A natureza impede que Moldávia ganhe outra copa",
+        descricao: "Tempestades e vendavais adiam copa do mundo e schorristas acusam Cláudio Goodbarras",
         imagem: "/images/chuvaNoEstádio.jpg",
         link: "/noticias/noticias.html?id=15"
     },
@@ -62,21 +77,6 @@ const noticias = [
         descricao: "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
         imagem: "/images/moldavaCampea.png",
         link: "/noticias/noticias.html?id=13"
-    },
-
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "A despedida angustiante de San Marino dessa copa",
-        descricao: "O mundo sente por San Marino",
-        imagem: "/images/johnnyeclausio.png",
-        link: "/noticias/noticias.html?id=12"
-    },
-    {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "TETRA CAMPEÃO!!!!! San Marino conquista mais um título",
-        descricao: "Senhoras e senhores, San Marino é TETRA CAMPEÃO MUNDIAL!",
-        imagem: "/images/tetraSanMarino.png",
-        link: "/noticias/noticias.html?id=11"
     },
 ];
 
