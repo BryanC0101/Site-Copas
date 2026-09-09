@@ -1,0 +1,206 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: light;
+    /* --cor-nav: linear-gradient(
+        135deg,
+        #033b68 0%,
+        #044c84 50%,
+        #0565a8 100%
+    ); */
+    --cor-nav: linear-gradient(
+        90deg,
+        /* #0046aee8 0%,
+        #0046AE 30%,
+        #b6334db2 70%,
+        #91132cfd 100% */
+        #cc2d2dfd 100%
+    );
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+nav {
+    height: 80px;
+    padding: 0 6%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--cor-nav);
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+
+    position: relative;
+    z-index: 1000;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+
+    background: transparent;
+    border: none;
+
+    color: white;
+
+    font-size: 30px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.hamburger:hover {
+    background: transparent;
+    transform: scale(1.1);
+}
+
+
+#logo a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    transition: 0.3s ease;
+}
+
+#logo a:hover {
+    opacity: 0.8;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu a {
+    position: relative;
+
+    padding: 28px 18px;
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+    transition: 0.3s ease;
+}
+
+.menu a::after {
+    content: "";
+
+    position: absolute;
+    left: 15%;
+    bottom: 17px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: white;
+
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 70%;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.hamburger {
+    display: none;
+
+    background: transparent;
+    border: none;
+
+    color: white;
+
+    font-size: 30px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.hamburger:hover {
+    background: transparent;
+    transform: scale(1.1);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+#anuncio {
+    width: 70%;
+    height: 300px;
+}
+
+#user {
+    width: 50px;
+    border-radius: 200px;
+}
+
+.centroDeApostas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tabelaOdds {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
