@@ -43,40 +43,40 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "A natureza impede que Moldávia ganhe outra copa",
-        descricao: "Tempestades e vendavais adiam copa do mundo e schorristas acusam Cláudio Goodbarras",
-        imagem: "/images/flags/Flag-Vietnam.webp",
-        link: "/noticias/noticias.html?id=17"
+        titulo: "É a terceira gloriosa da Macedoônia do Norte",
+        descricao: "Madedônia do Norte, a possível nova febre do futebol mundial?",
+        imagem: "/images/flags/evertoTriCampeao.jpg",
+        link: "/noticias/noticias.html?id=22"
     },
 
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Moldávia, Tri Campeã Mundial!",
-        descricao: "Moldávia estende sequência de copas vencidas e ganha o torneio",
-        imagem: "/images/flags/moldavia.svg",
-        link: "/noticias/noticias.html?id=16"
+        titulo: "Macedônia do Norte conquista uma segunda copa!!",
+        descricao: "A Macedônia da Morte",
+        imagem: "/images/macedonia bi campea.jpg",
+        link: "/noticias/noticias.html?id=21"
     },
     {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "A natureza impede que Moldávia ganhe outra copa",
-        descricao: "Tempestades e vendavais adiam copa do mundo e schorristas acusam Cláudio Goodbarras",
-        imagem: "/images/chuvaNoEstádio.jpg",
-        link: "/noticias/noticias.html?id=15"
+        categoria: "Notícia",
+        titulo: "Carta ao grande técnico Fedo Scafaldi",
+        descricao: "Hoje, Fedo Scafaldi comemora mais um ano de vida!",
+        imagem: "/images/7 copas.png",
+        link: "/noticias/noticias.html?id=20"
     },
 
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Moldávia é BI Campeã Mundial",
-        descricao: "Com a sorte em suas mãos, Fedo Scafaldi leva a Moldávia ao Bi Campeonato",
-        imagem: "/images/moldavia2.png",
-        link: "/noticias/noticias.html?id=14"
+        titulo: "Vietnã conquista seu segundo título",
+        descricao: "Vietnã conquista seu segundo título",
+        imagem: "/images/vietna.jpg",
+        link: "/noticias/noticias.html?id=19"
     },
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
-        titulo: "Moldávia conquista o título e é Campeã Mundial!",
-        descricao: "A seleção moldava ganha da Alemanha na final e leva o título mundial para a casa",
-        imagem: "/images/moldavaCampea.png",
-        link: "/noticias/noticias.html?id=13"
+        titulo: "Macedônia do Norte vence sua primeira copa do mundo",
+        descricao: "Macedônia do Norte sua primeira copa do mundo, suando!",
+        imagem: "/images/flags/Flag_of_North_Macedonia.svg.webp",
+        link: "/noticias/noticias.html?id=18"
     },
 ];
 
