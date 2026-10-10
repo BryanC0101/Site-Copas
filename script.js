@@ -43,40 +43,40 @@ let noticiaAtual = 0;
 const noticias = [
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+        titulo: "Uma vitória acachapante da Macedônia do Norte, e a conquista do tetra!!!",
+        descricao: "De 14x7, Macedônia do Norte derrota o estranho Cazaquistão na final",
+        imagem: "/images/Campeões da Macedônia do Norte.png",
+        link: "/noticias/noticias.html?id=25"
+    },
+
+    {
+        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Cazaquistão, a nova potência do futebol é Bi Campeão Mundial",
         descricao: "Bota o retrato do Andrey outra vez, bota no mesmo lugar!!!",
         imagem: "/images/cazaquistao campeao.png",
         link: "/noticias/noticias.html?id=24"
     },
-
     {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Cazaquistão é o mais novo campeão mundial!!!",
         descricao: "Varre, varre, varre a Macedônia, varre, varre a schorralheira.",
         imagem: "/images/flags/Flag_of_Kazakhstan.svg",
         link: "/noticias/noticias.html?id=23"
     },
+
     {
-        categoria: "COPA DO MUNDO - FOOTBALL LIFE",
+       categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "É a terceira gloriosa da Macedoônia do Norte",
         descricao: "Madedônia do Norte, a possível nova febre do futebol mundial?",
         imagem: "/images/evertoTriCampeao.jpg",
         link: "/noticias/noticias.html?id=22"
     },
-
     {
         categoria: "COPA DO MUNDO - FOOTBALL LIFE",
         titulo: "Macedônia do Norte conquista uma segunda copa!!",
         descricao: "A Macedônia da Morte",
         imagem: "/images/macedonia bi campea.jpg",
         link: "/noticias/noticias.html?id=21"
-    },
-    {
-        categoria: "Notícia",
-        titulo: "Carta ao grande técnico Fedo Scafaldi",
-        descricao: "Hoje, Fedo Scafaldi comemora mais um ano de vida!",
-        imagem: "/images/7 copas.png",
-        link: "/noticias/noticias.html?id=20"
     },
 ];
 
