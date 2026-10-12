@@ -18,11 +18,12 @@ const parametros = new URLSearchParams(window.location.search);
 const id = Number(parametros.get("id"));
 
 
-fetch("noticias.json")
-    .then(resposta => resposta.json())
-    .then(noticias => {
-
-        const noticia = noticias.find(noticia => noticia.id === id);
+fetch("/api/noticias/" + encodeURIComponent(id))
+    .then(resposta => {
+        if (!resposta.ok) return null;
+        return resposta.json();
+    })
+    .then(noticia => {
 
         if (!noticia) {
             document.querySelector("main").innerHTML =

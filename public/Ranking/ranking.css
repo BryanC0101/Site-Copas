@@ -7,6 +7,12 @@
 
 :root {
     color-scheme: light;
+    /* --cor-nav: linear-gradient(
+        135deg,
+        #033b68 0%,
+        #044c84 50%,
+        #0565a8 100%
+    ); */
     --cor-nav: linear-gradient(
         90deg,
         /* #0046aee8 0%,
@@ -51,7 +57,6 @@ nav a {
     position: relative;
 }
 
-
 nav a::after {
     content: "";
     position: absolute;
@@ -66,60 +71,6 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
-
-
-#titulo-news {
-    margin: 60px;
-    color: #04223a;
-    font-size: 50px;
-}
-
-
-.noticias {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 60px;
-}
-
-.noticia {
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    transition: transform 0.2s ease;
-}
-
-.noticia:hover {
-    transform: scale(1.02);
-    color: #04223af1;
-}
-
-.noticias a {
-    text-decoration: none;
-    color: #04223a;
-}
-
-.noticia img {
-    width: 180px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 20px;
-    transition: transform 0.2s ease;
-}
-
-.noticia h1 {
-    font-size: 20px;
-    margin: 0;
-}
-
-.noticia img:hover {
-    transform: scale(1.05);
-}
-
 
 .hamburger {
     display: none;
@@ -142,6 +93,88 @@ nav a:hover::after {
     transform: scale(1.1);
 }
 
+
+main h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #04223a;
+    text-align: center;
+}
+
+.tabela {
+    border: 3px solid rgb(99, 98, 98);
+    margin: 20px;
+    overflow-x: auto;
+}
+
+.cups {
+    background: #cfcfcf;
+    background: linear-gradient(
+        90deg,
+        rgba(207, 207, 207, 1) 0%,
+        rgba(207, 207, 207, 0.65) 50%,
+        rgba(207, 207, 207, 0.33) 100%
+    );
+    padding-right: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+
+#julesrimet {
+    width: 45px;
+    cursor: pointer;
+}
+
+#copadomundo {
+    width: 55px;
+    cursor: pointer;
+}
+
+#julesrimet,
+#copadomundo {
+    transition: transform 0.2s ease;
+}
+
+#julesrimet:hover,
+#copadomundo:hover {
+    transform: scale(1.15);
+}
+
+
+.selecao {
+    font-size: 15px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 180px 100px 600px;
+    align-items: center;
+    gap: 50px;
+}
+
+.selecao h1 {
+    padding-right: 20px;
+}
+
+.selecao img {
+    width: 150px;
+    max-width: 100%;
+}
+
+#logo a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    transition: 0.3s ease;
+}
+
+#logo a:hover {
+    opacity: 0.8;
+}
 
 .menu {
     display: flex;
@@ -189,39 +222,9 @@ nav a:hover::after {
 }
 
 
-#logo a {
-    color: white;
-    text-decoration: none;
-
-    font-size: 30px;
-    font-weight: 900;
-    letter-spacing: 2px;
-
-    transition: 0.3s ease;
-}
-
-#logo a:hover {
-    opacity: 0.8;
-}
-
-.up-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.pesquisa input {
-    width: 800px;
-    height: 50px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    padding-left: 10px;
-    font-size: 18px;
-    outline: none;
-}
-
 @media (max-width: 768px) {
+
+
     nav {
         position: relative;
         justify-content: space-between;
@@ -233,12 +236,6 @@ nav a:hover::after {
         font-size: 24px;
     }
 
-    #logo a {
-        font-size: 24px;
-        padding: 0;
-    }
-
-
     .hamburger {
         display: block;
         background: none;
@@ -247,39 +244,26 @@ nav a:hover::after {
         font-size: 30px;
         padding: 5px;
         cursor: pointer;
-        line-height: 1;
+        border-radius: 0;
     }
-
 
     .menu {
         display: none;
-
         position: absolute;
         top: 100%;
         left: 0;
-
         width: 100%;
-
-        background: linear-gradient(
-            180deg,
-            rgba(4, 76, 132, 1) 0%,
-            rgba(4, 84, 148, 1) 50%,
-            rgba(4, 76, 132, 1) 100%
-        );
-
+        background: var(--cor-secundaria, #044C84);
         flex-direction: column;
         align-items: center;
         gap: 0;
-
         padding: 10px 0;
-
         z-index: 1000;
     }
 
     .menu.ativo {
         display: flex;
     }
-
 
     .menu a {
         width: 100%;
@@ -288,76 +272,72 @@ nav a:hover::after {
         font-size: 16px;
     }
 
-
     .menu a::after {
         display: none;
     }
 
 
-    #titulo-news {
-        margin: 30px 20px;
-        font-size: 32px;
-        text-align: center;
-    }
 
-    .noticias {
-        display: flex;
-        flex-direction: column;
-
-        gap: 20px;
-
-        margin: 20px auto;
-        width: 90%;
-    }
-
-
-    .noticia {
-        display: flex;
-        flex-direction: column;
-
-        width: 100%;
-
+    main h1 {
+        font-size: 25px;
         padding: 15px;
-
-        gap: 12px;
     }
 
 
-    .noticia img {
-        width: 100%;
-        height: 200px;
 
-        object-fit: cover;
-
-        border-radius: 15px;
+    .tabela {
+        margin: 15px 10px;
+        overflow-x: auto;
     }
 
 
-    .noticia h1 {
+    .cups {
+        padding: 20px;
+    }
+
+    #julesrimet {
+        width: 30px;
+    }
+
+    #copadomundo {
+        width: 30px;
+        height: 68px;
+    }
+
+
+
+    .selecao {
+        font-size: 14px;
+        margin: 30px 15px;
+        display: grid;
+        grid-template-columns: 80px 60px 1fr;
+        gap: 15px;
+    }
+
+    .selecao h1 {
+        padding-right: 5px;
         font-size: 18px;
-        text-align: center;
     }
 
-    .noticia:hover {
-        transform: none;
+    .selecao img {
+        width: 60px;
+        max-width: 100%;
     }
 
 
-    .noticia img:hover {
-        transform: none;
+
+    .direita-main img {
+        width: 100%;
+        height: auto;
     }
 
-    .pesquisa input {
-    width: 300px;
-    height: 50px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    padding-left: 10px;
-    font-size: 18px;
-    outline: none;
+    .imagem-moment img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
     }
+
 }
-
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: light;
